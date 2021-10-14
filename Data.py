@@ -55,15 +55,15 @@ Made With ❤️ By @M2Botz
 
     # About Message
     ABOUT = """
-**About This Bot** 
+🔹Bot Name : Dictionary Bot
 
-Bot created by @M2Botz
+🔸Updates Channel : [Click Here](https://t.me/m2botz)
 
-Updates Channel : [Click Here](https://t.me/m2botz)
+🔹Support Group : [Click Here](https://t.me/m2botzsupport)
 
-Support Group : [Click Here](https://t.me/m2botzsupport)
+🔸Source Code : [Releasing Soon](https://t.me/m2botz)
 
-Source Code : [Releasing Soon](https://t.me/m2botz)
+🔹Developer : [M2](https://t.me/ask_admin01)
 
-Developer : [M2](https://t.me/ask_admin01)
+Made With ❤️ By @M2Botz
     """
