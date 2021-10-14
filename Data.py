@@ -65,5 +65,5 @@ Support Group : [Click Here](https://t.me/m2botzsupport)
 
 Source Code : [Releasing Soon](https://t.me/m2botz)
 
-Developer : [M2](https://t.me/ask_admin01
+Developer : [M2](https://t.me/ask_admin01)
     """
