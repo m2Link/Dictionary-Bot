@@ -3,17 +3,17 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     # Start Message
-    START = "Hey {}. \n\nWelcome to {} \n\nI can search words from Urban Dictionary and give them to you. I will provide it's definition as well as example \n\nYou can send any word here or Try using my inline mode. \n\nBy @StarkBots"
+    START = "Hey {}. \n\nWelcome to {} \n\nI can search words from Urban Dictionary and give them to you. I will provide it's definition as well as example \n\nYou can send any word here or Try using my inline mode. \n\nBy @M2Botz"
 
     # Home Button
     home_buttons = [
         [InlineKeyboardButton("🔍 Search Inline 🔍", switch_inline_query_current_chat="")],
         [
             InlineKeyboardButton(
-                "➕ Add to your Group ➕", url="https://t.me/TheUrbanDictBot?startgroup=True"
+                "➕ Add to your Group ➕", url="https://t.me/TGDictionary_M2Bot?startgroup=True"
             )
         ],
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
+        [InlineKeyboardButton(text="🏠Home", callback_data="home")],
     ]
 
     # Rest Buttons
@@ -23,15 +23,15 @@ class Data:
             InlineKeyboardButton("How to Use ❔", callback_data="help")
         ],
         [
-            InlineKeyboardButton("🎪 About The Bot 🎪", callback_data="about")
+            InlineKeyboardButton("About😎", callback_data="about")
         ],
         [
             InlineKeyboardButton(
-                "➕ Add to your Group ➕", url="https://t.me/TheUrbanDictBot?startgroup=True"
+                "➕ Add to your Group ➕", url="https://t.me/TGDictionary_M2Bot?startgroup=True"
             )
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("♥ Updates Channel ♥", url="https://t.me/m2botz")],
+        [InlineKeyboardButton("✍️ Support Group ✍️", url="https://t.me/m2botzsupport")],
     ]
 
     # Help Message
@@ -49,19 +49,21 @@ class Data:
  ~ You can also use: "/ud text here" or "/search text here" in groups.
  ~ Send "/random" to get random word.
 (If doesn't responds in group then make it admin. Telegram is weird)
+
+Made With ❤️ By @M2Botz
     """
 
     # About Message
     ABOUT = """
 **About This Bot** 
 
-Bot created by @StarkBots
+Bot created by @M2Botz
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/UrbanDictionaryBot)
+Updates Channel : [Click Here](https://t.me/m2botz)
 
-Framework : [Pyrogram](docs.pyrogram.org)
+Support Group : [Click Here](https://t.me/m2botzsupport)
 
-Language : [Python](www.python.org)
+Source Code : [Releasing Soon](https://t.me/m2botz)
 
-Developer : @StarkProgrammer
+Developer : [M2](https://t.me/ask_admin01
     """
